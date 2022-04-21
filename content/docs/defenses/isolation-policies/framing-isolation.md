@@ -54,3 +54,4 @@ def allow_request(req):
 ## Considerations
 Framing Isolation Policy cannot be applied if an endpoint allows framing requests from specific origins via  `X-Frame-Options` and/or Content Security Policy's
 `frame-ancestors` directive.
+
